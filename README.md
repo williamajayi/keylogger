@@ -1,5 +1,5 @@
 # keylogger
-Module to log keystrokes on a remote machine and email to a specified username
+Module to log keystrokes on a remote machine and email to a specified user
 
 Requirements:
 
@@ -15,6 +15,6 @@ Create an instance of the object: klogger = Keylogger([interval], [Gmail usernam
 
 Call the start method for the object: klogger.start()
 
-Call the program
+Run the program
 
-To terminate logging keystrokes: killall python
+To terminate logging keystrokes, enter: killall python
